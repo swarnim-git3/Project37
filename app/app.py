@@ -24,8 +24,8 @@ def home():
     """Main endpoint"""
     logger.info("Home endpoint accessed")
     return jsonify({
-        "message": "Hello DevOps!",
-        "status": "running",
+        "message": "Hello World this is the start",
+        "status": "Running like usain bolt",
         "version": "1.0.0"
     })
 
