@@ -55,7 +55,7 @@ def info():
         "environment": os.getenv('ENVIRONMENT', 'development'),
         "python_version": "3.11"
     })
-
+# just a simple test
 @app.errorhandler(404)
 def not_found(error):
     """Handle 404 errors"""
